@@ -1,0 +1,14 @@
+{
+  "name": "my-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.7",
+    "axios": "^1.7.2",
+    "react-redux": "^9.1.2",
+    "redux": "^5.0.1"
+  }
+}
